@@ -1,0 +1,4 @@
+#!/bin/sh
+rm /opt/QtPalmtop/apps2/expandapps/z/16_Words.desktop
+rm -rf /opt/QtPalmtop/data/z/Install
+exit

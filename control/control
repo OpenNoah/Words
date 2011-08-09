@@ -1,0 +1,10 @@
+Package: Words
+Priority: optional
+Version: 4.6
+Architecture: all 
+Maintainer: 544080857 <544080857@qq.com>
+Source: club.noahedu.com
+Section: zhiyb
+Depends: 
+Description: Words Recite Program
+

@@ -1,0 +1,5 @@
+#!/bin/sh
+/opt/QtPalmtop/bin/embeddedkonsole "/tmp/Shell/Install.sh; exit"
+[ $(</tmp/admit.tmp) = 0 ] && killall ipkg-cl
+rm -rf /opt/QtPalmtop/data/z/Install
+exit
