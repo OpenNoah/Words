@@ -1,21 +1,23 @@
 #!/bin/bash
 
-#ÎÄ¼şÎ»ÖÃ
+#æ–‡ä»¶ä½ç½®
 app="/opt/QtPalmtop/bin/z"
+app="$PWD/ProgFS/QtPalmtop/bin/z"
 init_data="/mnt/UsrDisk/words"
+init_data="$PWD/words"
 data="$init_data"
 tmpf="/tmp/Words_filelist.tmp"
 ltmp="/tmp/ListSelect.tmp"
 save="$data/.save"
 savep="$save/Settings.conf"
 
-#±äÁ¿¶¨Òå
+#å˜é‡å®šä¹‰
 n=0; declare -a level word mean sets file \
-lshow=("È«²¿ 1¼¶ 2¼¶ 3¼¶ 4¼¶ 5¼¶") saved choose \
-order tmp on_off=("¹Ø±Õ ¿ªÆô") true false dir \
+lshow=("å…¨éƒ¨" "1çº§" "2çº§" "3çº§" "4çº§" "5çº§") saved choose \
+order tmp on_off=("å…³é—­" "å¼€å¯") true false dir \
 wordsnum
 
-#×ªÒåĞòÁĞ
+#è½¬ä¹‰åºåˆ—
 titc='\E[1;31;40m'; errc='\E[1;34;40m'
 color='\E[1;34;40m'; comc='\E[31m'; wmc='\E[35m'
 wdc='\E[94m'; wfc='\E[92m'; wnc='\E[92m'
@@ -26,38 +28,38 @@ numc="\E[1;34;40m"; light="\E[1;37;40m"
 swc="\E[1;37;47m"; end='\E[0m'; del='\E[2K'
 up1='\E[1A\E[0G'; hide='\E[?25l'; shows='\E[?25h'
 
-#ÏÔÊ¾Êı¾İ
-lines="$linc################################################$end"    #·Ö¸îÏß
-title="$titc      µ¥´ÊÄ¬Ğ´   ${color}Made by Norman (ZHIYB)    ${swc}h$color ${swc}d$end ${swc}q$end"    #±êÌâ
-tip="$tipc   ${light}l$tipc¿´Ò»ÏÂ ${light}p$tipcÉÏÒ»¸ö ${light}n$tipcÏÂÒ»¸ö ${light}s$tipcÑ¡Ïî ${light}q$tipc·µ»Ø  $numc"    #Ñ¡Ïî×ÖÄ¸ÌáÊ¾
-help="$inc   Words and Expressions  Ä¬Ğ´³ÌĞò  °ïÖúËµÃ÷$end"    #°ïÖúËµÃ÷±êÌâ
-helps="$textc            Ä¬Ğ´³ÌĞò$light¸Ä½ø°æ$end"
-cont="\n$textc°´$lightÊäÈë¼ü$textc¼ÌĞø...$end"
+#æ˜¾ç¤ºæ•°æ®
+lines="$linc################################################$end"    #åˆ†å‰²çº¿
+title="$titc      å•è¯é»˜å†™   ${color}Made by Norman (ZHIYB)    ${swc}h$color ${swc}d$end ${swc}q$end"    #æ ‡é¢˜
+tip="$tipc   ${light}l$tipcçœ‹ä¸€ä¸‹ ${light}p$tipcä¸Šä¸€ä¸ª ${light}n$tipcä¸‹ä¸€ä¸ª ${light}s$tipcé€‰é¡¹ ${light}q$tipcè¿”å›  $numc"    #é€‰é¡¹å­—æ¯æç¤º
+help="$inc   Words and Expressions  é»˜å†™ç¨‹åº  å¸®åŠ©è¯´æ˜$end"    #å¸®åŠ©è¯´æ˜æ ‡é¢˜
+helps="$textc            é»˜å†™ç¨‹åº$lightæ”¹è¿›ç‰ˆ$end"
+cont="\n$textcæŒ‰$lightè¾“å…¥é”®$textcç»§ç»­...$end"
 
-#º¯Êı
-prog_quit(){ #³ÌĞòÍË³ö
-  echo -e "$incÍË³ö...$end"
+#å‡½æ•°
+prog_quit(){ #ç¨‹åºé€€å‡º
+  echo -e "$incé€€å‡º...$end"
   killall embeddedkonsole; exit 0
 }
-prog_desk(){ #·µ»Ø×ÀÃæ
-  echo -e "$inc·µ»Ø×ÀÃæ...$end"
+prog_desk(){ #è¿”å›æ¡Œé¢
+  echo -e "$incè¿”å›æ¡Œé¢...$end"
   /opt/QtPalmtop/bin/qcop "QPE/System" "xxExecute(QString)" "qpe"
 }
-prog_msg(){ #»ñÈ¡ÎÄ¼şĞÅÏ¢
-  echo -ne "$hide$del$inc¶ÁÈ¡ÎÄ¼şĞÅÏ¢ÖĞ...\n$del$textc$dat$end$up1"
+prog_msg(){ #è·å–æ–‡ä»¶ä¿¡æ¯
+  echo -ne "$hide$del$incè¯»å–æ–‡ä»¶ä¿¡æ¯ä¸­...\n$del$textc$dat$end$up1"
   line1=0; n=0; means=""; wordselect=""; unset word[@] mean[@]
   while read line; do
     word[n]="$line"; read line; mean[n++]="$line"
   done < "$data/$dat"
   num=$n; n=0
 }
-prog_help(){ #°ïÖúÒ³Ãæ
+prog_help(){ #å¸®åŠ©é¡µé¢
   clear
   echo -e "$title\n$lines\n$help\n$lightSorry...$helps
-$textc    Ã»ÓĞ°ïÖúÄÚÈİ¡£¡£¡£$end"
+$textc    æ²¡æœ‰å¸®åŠ©å†…å®¹ã€‚ã€‚ã€‚$end"
   read -s tmp
 }
-prog_filesearch(){ #½¨Á¢ÎÄ¼şÁĞ±í
+prog_filesearch(){ #å»ºç«‹æ–‡ä»¶åˆ—è¡¨
   ls="$(ls -1)"; dirnum=0
   unset dir[@] file[@] flist wordsnum
   [ "$PWD" != "$init_data" ] && {
@@ -74,24 +76,24 @@ prog_filesearch(){ #½¨Á¢ÎÄ¼şÁĞ±í
   done
   for ((n=0;n<dirnum;n++)); do
     [ $n = 0 ] && [ "${dir[n]}" = ".." ] && {
-      flist="$flist '$comc ·µ»ØÉÏ¼¶Ä¿Â¼ '"; continue
+      flist="$flist '$comc è¿”å›ä¸Šçº§ç›®å½• '"; continue
     }
-    flist="$flist '$wdc ${dir[n]} $wmc-> ÎÄ¼ş¼Ğ '"
+    flist="$flist '$wdc ${dir[n]} $wmc-> æ–‡ä»¶å¤¹ '"
   done
   for ((n=0;n<${#file[@]};n++)); do
-    flist="$flist '$wfc ${file[n]} $wmc-> µ¥´Ê×ÜÊı:$wnc${wordsnum[n]} '"
+    flist="$flist '$wfc ${file[n]} $wmc-> å•è¯æ€»æ•°:$wnc${wordsnum[n]} '"
   done
   lnum=$((dirnum+${#file[@]}))
   saved[0]=$((saved[0]<lnum?saved[0]:0))
 }
-prog_fileselect(){ #ÏÔÊ¾ÎÄ¼şÁĞ±í
+prog_fileselect(){ #æ˜¾ç¤ºæ–‡ä»¶åˆ—è¡¨
   tmp=0
   until [ "$tmp" = 1 ]; do
     prog_filesearch
-    $app/List.sh "      µ¥´ÊÄ¬Ğ´"\
+    $app/List.sh "      å•è¯é»˜å†™"\
     "   ${PWD:$(dirname "$init_data" | wc -L)+1}" "" 1 0 "${saved[0]}"\
-    "$flist '$comc °ï    Öú ' '$comc ×î Ğ¡ »¯ '\
-    '$comc Ñ¡    Ïî ' '$comc ÍË    ³ö '"
+    "$flist '$comc å¸®    åŠ© ' '$comc æœ€ å° åŒ– '\
+    '$comc é€‰    é¡¹ ' '$comc é€€    å‡º '"
     dat=$(<$ltmp)
     case "$dat" in
     "$lnum" ) prog_help ;;
@@ -106,16 +108,16 @@ prog_fileselect(){ #ÏÔÊ¾ÎÄ¼şÁĞ±í
     esac
   done
 }
-prog_set(){ #³ÌĞòÑ¡Ïî
+prog_set(){ #ç¨‹åºé€‰é¡¹
   export quit=0 tmp2=0
   until [ $quit = 1 ]; do
-    $app/List.sh "      Ä¬Ğ´ÉèÖÃ"\
+    $app/List.sh "      é»˜å†™è®¾ç½®"\
     "      Made By Norman (ZHIYB)" "" 1 0 $tmp2\
-    "' Ä¬Ğ´µ¥´Ê·¶Î§(¼¶±ğ): ${lshow[set_level]} '\
-    ' ¿´Ò»ÏÂµÈ´ıÊ±¼ä: $Look_TimeÃë\
-$([ $Look_Time = 0 ] && echo "(µÈ´ı°´¼ü)") '\
-    ' µ¥´Ê¼¶±ğ×Ô¶¯´¦Àí: ${on_off[auto_level]} '\
-    '$comc È·    ¶¨ '"
+    "' é»˜å†™å•è¯èŒƒå›´(çº§åˆ«): ${lshow[set_level]} '\
+    ' çœ‹ä¸€ä¸‹ç­‰å¾…æ—¶é—´: $Look_Timeç§’\
+$([ $Look_Time = 0 ] && echo "(ç­‰å¾…æŒ‰é”®)") '\
+    ' å•è¯çº§åˆ«è‡ªåŠ¨å¤„ç†: ${on_off[auto_level]} '\
+    '$comc ç¡®    å®š '"
     tmp2=$?
     case $tmp2 in
     0 ) ((set_level=set_level==5?0:set_level+1));;
@@ -125,15 +127,15 @@ $([ $Look_Time = 0 ] && echo "(µÈ´ı°´¼ü)") '\
     esac
   done
 }
-prog_choose(){ #µ¥´ÊÑ¡Ïî
+prog_choose(){ #å•è¯é€‰é¡¹
   quit=0
   until [ "$quit" = 1 ]; do
     quit=1; prog_save
-    $app/List.sh "      µ¥´ÊÑ¡Ïî"\
+    $app/List.sh "      å•è¯é€‰é¡¹"\
     "      Made By Norman (ZHIYB)" ""\
-    1 0 0 "' µ¥´Ê¼¶±ğ: ${lshow[level[order[n]]]} '\
-    ' Ñ¡Ôñµ¥´Ê '\
-    '$comc È·    ¶¨ '"
+    1 0 0 "' å•è¯çº§åˆ«: ${lshow[level[order[n]]]} '\
+    ' é€‰æ‹©å•è¯ '\
+    '$comc ç¡®    å®š '"
     case $? in
     0 ) quit=0
       level[order[n]]=$((level[order[n]]==5?1:level[order[n]]+1)) ;;
@@ -143,27 +145,27 @@ prog_choose(){ #µ¥´ÊÑ¡Ïî
   done
   quit=0
 }
-prog_select(){ #µ¥´ÊÑ¡Ôñ
-  echo -e "$inc´´½¨µ¥´ÊÁĞ±íÖĞ...$end"
-  $app/List.sh "      µ¥´ÊÑ¡Ôñ"\
+prog_select(){ #å•è¯é€‰æ‹©
+  echo -e "$incåˆ›å»ºå•è¯åˆ—è¡¨ä¸­...$end"
+  $app/List.sh "      å•è¯é€‰æ‹©"\
   "      Made By Norman (ZHIYB)" "" 0 0 "$n"\
   "$(for ((m=0;m<${#order[@]};m++)); do
     echo -ne "'No.$((m+1)) -> ${mean[order[m]]}' "
   done)\
-  '$comc>>>>>>  È¡    Ïû  <<<<<<'"
+  '$comc>>>>>>  å–    æ¶ˆ  <<<<<<'"
   m=$(<$ltmp)
   case $m in
   "$num" ) : ;;
   * ) n=$m ;;
   esac
 }
-prog_Atoa(){ #´óĞ´×ªĞ¡Ğ´
+prog_Atoa(){ #å¤§å†™è½¬å°å†™
   for letters in "A a" "B b" "C c" "D d" "E e" "F f" "G g" "H h" "I i" "J j" "K k" "L l" "M m" "N n" "O o" "P p" "Q q" "R r" "S s" "T t" "U u" "V v" "W w" "X x" "Y y" "Z z"; do
-    declare -a letter=("$letters")
+    declare -a letter=($letters)
     tmp=${tmp//${letter[0]}/${letter[1]}}
   done
 }
-prog_save(){ #±£´æ´æµµ
+prog_save(){ #ä¿å­˜å­˜æ¡£
   mkdir -p "$save"
   echo "$set_level ${saved[0]} $Look_Time $auto_level
 $PWD" > "$savep"
@@ -171,7 +173,7 @@ $PWD" > "$savep"
 ${level[@]}
 ${order[@]}" > "$save/$dat.sav"
 }
-prog_setload(){ #¶ÁÈ¡³ÌĞòÉèÖÃ
+prog_setload(){ #è¯»å–ç¨‹åºè®¾ç½®
   [ ! -e "$savep" ] && {
     saved[0]=0; set_level=0; Look_Time=1
     auto_level=0; prog_position; return
@@ -188,7 +190,7 @@ prog_setload(){ #¶ÁÈ¡³ÌĞòÉèÖÃ
   [ "$auto_level" = "" ] && auto_level=1
   prog_position
 }
-prog_load(){ #¶ÁÈ¡µ¥´Ê´æµµ
+prog_load(){ #è¯»å–å•è¯å­˜æ¡£
   [ ! -e "$save/$dat.sav" ] && {
     saved[1]=0; saved[2]=0; saved[3]=0
     for ((n=0;n<num;n++)); do level[n]=1; done
@@ -203,7 +205,7 @@ prog_load(){ #¶ÁÈ¡µ¥´Ê´æµµ
   done
   [ ${#order[@]} = 0 ] && order=($(seq 0 $((num-1))))
 }
-prog_level(){ #¼¶±ğ¹ıÂË
+prog_level(){ #çº§åˆ«è¿‡æ»¤
   unset order[@]
   [ $set_level = 0 ] &&\
   order=($(seq 0 $((${#level[@]}-1)))) && return 0
@@ -212,12 +214,12 @@ prog_level(){ #¼¶±ğ¹ıÂË
     order[${#order[@]}]=$n
   done
 }
-prog_continue(){ #Ä¬Ğ´Ë³ĞòÑ¡Ôñ
+prog_continue(){ #é»˜å†™é¡ºåºé€‰æ‹©
   saved[1]=0
-  $app/List.sh "      Ä¬Ğ´Ë³Ğò"\
+  $app/List.sh "      é»˜å†™é¡ºåº"\
   "      Made By Norman (ZHIYB)" "" 1 0 0\
-  "$([ ${saved[3]} = 1 ] && echo "¼ÌĞøÄ¬Ğ´")
-  Ë³ĞòÄ¬Ğ´ µ¹ĞòÄ¬Ğ´ Ëæ»úË³Ğò '$comc·µ»ØÁĞ±í'"
+  "$([ ${saved[3]} = 1 ] && echo "ç»§ç»­é»˜å†™")
+  é¡ºåºé»˜å†™ å€’åºé»˜å†™ éšæœºé¡ºåº '$comcè¿”å›åˆ—è¡¨'"
   case $? in
   $((saved[3]-1)) ) prog_load; return 0;;
   ${saved[3]} ) return 0;;
@@ -226,14 +228,14 @@ prog_continue(){ #Ä¬Ğ´Ë³ĞòÑ¡Ôñ
   $((saved[3]+3)) ) return 1;;
   esac
 }
-prog_invert(){ #ÄæĞòÅÅÁĞ
+prog_invert(){ #é€†åºæ’åˆ—
   unset tmp[@]
   declare -a tmp=(${order[@]}); unset order[@]
   for ((n=0;n<num;n++)); do
     order[n]=${tmp[num-n-1]}
   done
 }
-prog_random(){ #Ëæ»úË³Ğò
+prog_random(){ #éšæœºé¡ºåº
   for ((n=0;n<num;n++)); do
     tmp=${order[n]}
     RanNum=$((RANDOM%(num-n)+n))
@@ -241,11 +243,11 @@ prog_random(){ #Ëæ»úË³Ğò
     order[RanNum]=$tmp
   done
 }
-prog_position(){ #´æ´¢Î»ÖÃ
+prog_position(){ #å­˜å‚¨ä½ç½®
   save="$data/.save"
 }
 
-#Ö÷³ÌĞò
+#ä¸»ç¨‹åº
 quit=0; mkdir -p "$data" "$save"
 cd "$data"; prog_setload
 while :; do
@@ -254,21 +256,21 @@ while :; do
     if [ -s "$data/$dat" ]; then
       prog_msg; prog_load; prog_level
       if [ ${#order[@]} = 0 ]; then
-        echo -e "$incÃ»ÓĞ${lshow[set_level]}µ¥´Ê,Ä¬Ğ´È«²¿µ¥´Ê!$end"
+        echo -e "$incæ²¡æœ‰${lshow[set_level]}å•è¯,é»˜å†™å…¨éƒ¨å•è¯!$end"
         m=$set_level; set_level=0; prog_msg
         sleep 1s; set_level=$m; order=($(seq 0 $((num-1))))
       else num=${#order[@]}
       fi
       prog_continue || continue
       ((saved[1]>num)) && saved[1]=0
-      echo -e "\E[2J\E[1;1H$title\n$lines\n$inc   ÎÄ¼şĞÅÏ¢: $dat$end\n$textc   µ¥´Ê×ÜÊı: $light$num$end\n$textc   µÚÒ»¸ö  : $light${mean[order[0]]}$end\n$textc   ×îºóÒ»¸ö: $light${mean[order[((num-1))]]}$end$cont"
+      echo -e "\E[2J\E[1;1H$title\n$lines\n$inc   æ–‡ä»¶ä¿¡æ¯: $dat$end\n$textc   å•è¯æ€»æ•°: $light$num$end\n$textc   ç¬¬ä¸€ä¸ª  : $light${mean[order[0]]}$end\n$textc   æœ€åä¸€ä¸ª: $light${mean[order[((num-1))]]}$end$cont"
       read -s tmp
     else
-      echo -e "$incÕâÊÇ¿ÕÎÄ¼ş!!!$end"
+      echo -e "$incè¿™æ˜¯ç©ºæ–‡ä»¶!!!$end"
       usleep 50000; continue
     fi
   else
-    echo -e "$incÎÄ¼ş´íÎó!!!$end"
+    echo -e "$incæ–‡ä»¶é”™è¯¯!!!$end"
     usleep 500000; continue
   fi
   for ((n=0;n<num;n++)); do true[n]=0; false[n]=0; done
@@ -283,28 +285,28 @@ while :; do
       [ "$auto_level" = 1 ] && {
         level[order[n]]=$((level[order[n]]==1?1:level[order[n]]-true[n])); true[n]=$((1-true[n]))
       }
-      echo -e "$incÕıÈ·!  $light${word[order[n]]}  ${lshow[level[order[n++]]]}$end"
+      echo -e "$incæ­£ç¡®!  $light${word[order[n]]}  ${lshow[level[order[n++]]]}$end"
     else
       case "$input" in
       l ) [ "$auto_level" = 1 ] && {
           level[order[n]]=$((level[order[n]]==5?5:level[order[n]]+false[n])); false[n]=$((1-false[n]))
         }
-        echo -e "$inc¿´Ò»ÏÂ:  $inp${word[order[n]]}  ${lshow[level[order[n]]]}$end"
+        echo -e "$incçœ‹ä¸€ä¸‹:  $inp${word[order[n]]}  ${lshow[level[order[n]]]}$end"
         sleep ${Look_Time}s
         [ $Look_Time = 0 ] && read -s; continue;;
       p )
         if [ "$n" = "0" ]; then
-          echo -e "$incÕâÊÇµÚÒ»¸ö!!!$end"
+          echo -e "$incè¿™æ˜¯ç¬¬ä¸€ä¸ª!!!$end"
         else
-          echo -e "$incÉÏÒ»¸ö...$end"; ((n--))
+          echo -e "$incä¸Šä¸€ä¸ª...$end"; ((n--))
         fi ;;
       n ) ((n++))
         if [ "${order[n]}" = "" ]; then
-          echo -e "$incÕâÊÇ×îºóÒ»¸ö!!!$end"; ((n--))
+          echo -e "$incè¿™æ˜¯æœ€åä¸€ä¸ª!!!$end"; ((n--))
         else
-          echo -e "$incÏÂÒ»¸ö...$end"
+          echo -e "$incä¸‹ä¸€ä¸ª...$end"
         fi ;;
-      q ) echo -e "$inc·µ»ØÎÄ¼şÁĞ±í...$end"
+      q ) echo -e "$incè¿”å›æ–‡ä»¶åˆ—è¡¨...$end"
         quit=1; n=$num ;;
       d ) prog_desk ;;
       s ) prog_choose ;;
@@ -313,14 +315,14 @@ while :; do
       * ) [ "$auto_level" = 1 ] && {
           level[order[n]]=$((level[order[n]]==5?5:level[order[n]]+false[n])); false[n]=$((1-false[n]))
         }
-        echo -e "$inc´íÎó!  $light${lshow[level[order[n]]]}$end" ;;
+        echo -e "$incé”™è¯¯!  $light${lshow[level[order[n]]]}$end" ;;
       esac
     fi
     usleep 500000
   done
   if [ "$quit" = "0" ]; then
     saved[1]=0; prog_save; clear
-    echo -e "$title\n$lines\n$timec   $(date)$end\n$inc±¾×éµ¥´ÊÒÑ±³Íê,·µ»ØÎÄ¼şÁĞ±í¡£$end"
+    echo -e "$title\n$lines\n$timec   $(date)$end\n$incæœ¬ç»„å•è¯å·²èƒŒå®Œ,è¿”å›æ–‡ä»¶åˆ—è¡¨ã€‚$end"
     sleep 1s
   fi
 done
