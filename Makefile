@@ -4,3 +4,6 @@ run: usleep
 
 usleep: usleep.c
 	gcc -o $@ -O3 $<
+
+clean:
+	rm -f usleep
