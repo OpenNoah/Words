@@ -1,82 +1,82 @@
 airmail
-n.º½¿ÕÓÊ¼ş
+n.èˆªç©ºé‚®ä»¶
 address
-n.µØÖ· v.Ğ´µØÖ·
+n.åœ°å€ v.å†™åœ°å€
 addressee
-n.ÊÕĞÅÈË,ÊÕ¼şÈË
+n.æ”¶ä¿¡äºº,æ”¶ä»¶äºº
 area code
-ÇøºÅ
+åŒºå·
 cash on deliver
-»õµ½¸¶¿î
+è´§åˆ°ä»˜æ¬¾
 circular
-n.Í¨Öª,´«µ¥
+n.é€šçŸ¥,ä¼ å•
 telegram
-n.µç±¨
+n.ç”µæŠ¥
 consignee
-n.ÊÜÍĞÕß,ÊÕ¼şÈË
+n.å—æ‰˜è€…,æ”¶ä»¶äºº
 correspondence
-n.Í¨ĞÅ,ĞÅ¼ş
+n.é€šä¿¡,ä¿¡ä»¶
 covering letter
-¸½ĞÅ
+é™„ä¿¡
 date stamp
-(¼Ó¸ÇµÄ)ÈÕÆÚÓÊ´Á
+(åŠ ç›–çš„)æ—¥æœŸé‚®æˆ³
 delivery
-n.µİËÍ,½»¸¶
+n.é€’é€,äº¤ä»˜
 dialing tone
-²¦ºÅÒô
+æ‹¨å·éŸ³
 pouch
-n.Ğ¡´ü
+n.å°è¢‹
 diplomatic pouch
-Íâ½»ÓÊ´ü
+å¤–äº¤é‚®è¢‹
 travel pouch
-ÂÃĞĞ´ü
+æ—…è¡Œè¢‹
 directory
-n.Ä¿Â¼,ĞÕÃûµØÖ·Â¼
+n.ç›®å½•,å§“ååœ°å€å½•
 engaged tone
-Õ¼ÏßÒô,Ã¦Òô
+å çº¿éŸ³,å¿™éŸ³
 envelope
-n.ĞÅ·â,·âÌ×
+n.ä¿¡å°,å°å¥—
 postal charges
-ÓÎ×Ê
+æ¸¸èµ„
 express/special delivery letters
-¿ìµİĞÅ¼ş
+å¿«é€’ä¿¡ä»¶
 extension
-n.·Ö»ú
+n.åˆ†æœº
 letter box
-ĞÅÏä
+ä¿¡ç®±
 letterhead
-n.ĞÅ¼ãÉÏ·½µÄÓ¡Ë¢ÎÄ×Ö,Ì§Í·
+n.ä¿¡ç¬ºä¸Šæ–¹çš„å°åˆ·æ–‡å­—,æŠ¬å¤´
 line
-n.ÏßÂ·
+n.çº¿è·¯
 local call
-ÊĞÄÚµç»°
+å¸‚å†…ç”µè¯
 long-distance call
-³¤Í¾µç»°
+é•¿é€”ç”µè¯
 mail sorter
-ĞÅ¼ş·ÖÀà×°ÖÃ
+ä¿¡ä»¶åˆ†ç±»è£…ç½®
 mailbag
-n.ÓÊ´ü
+n.é‚®è¢‹
 parcel
-n.Ğ¡°ü,ÓÊ±¨,°ü¹ü
+n.å°åŒ…,é‚®æŠ¥,åŒ…è£¹
 payee
-n.ÊÕ¿îÈË,Áì¿îÈË
+n.æ”¶æ¬¾äºº,é¢†æ¬¾äºº
 postage
-n.ÓÊ×Ê,ÓÊ·Ñ
+n.é‚®èµ„,é‚®è´¹
 postal
-adj.ÓÊÕşµÄ,ÓÊ¾ÖµÄ
+adj.é‚®æ”¿çš„,é‚®å±€çš„
 postcard
-n.Ã÷ĞÅÆ¬
+n.æ˜ä¿¡ç‰‡
 postman
-n.ÓÊµİÔ±
+n.é‚®é€’å‘˜
 postscript
-n.¸½ÑÔ,ºó¼Ç(PSÎªÆäËõĞ´ĞÎÊ½)
+n.é™„è¨€,åè®°(PSä¸ºå…¶ç¼©å†™å½¢å¼)
 receiver
-n.½ÓÊÜÕß,µç»°ÌıÍ²
+n.æ¥å—è€…,ç”µè¯å¬ç­’
 registered letter
-¹ÒºÅĞÅ
+æŒ‚å·ä¿¡
 reverse-charge call
-½ÓÌıÈË¸¶¿îµÄµç»°
+æ¥å¬äººä»˜æ¬¾çš„ç”µè¯
 switchboard
-n.½ÓÏß×Ü»ú
+n.æ¥çº¿æ€»æœº
 telegraph
-n.µç±¨»ú,µç±¨
+n.ç”µæŠ¥æœº,ç”µæŠ¥

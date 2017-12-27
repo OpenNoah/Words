@@ -1,102 +1,102 @@
 ache
-n.ÌÛÍ´
+n.ç–¼ç—›
 allergic
-adj.¹ıÃôµÄ
+adj.è¿‡æ•çš„
 appointment
-n.Ô¼»á
+n.çº¦ä¼š
 arthritis
-n.¹Ø½ÚÑ×
+n.å…³èŠ‚ç‚
 break
-v.ÕÛ¶Ï
+v.æŠ˜æ–­
 bruise
-v.&n.²ÁÉË
+v.&n.æ“¦ä¼¤
 chicken box
-Ë®¶»
+æ°´ç—˜
 chronic
-adj.ÂıĞÔµÄ
+adj.æ…¢æ€§çš„
 cough
-n.¿ÈËÔ
+n.å’³å—½
 consult
-v.Çë½Ì,×ÉÑ¯
+v.è¯·æ•™,å’¨è¯¢
 diarrhea
-n.¸¹Ğº,À­¶Ç×Ó
+n.è…¹æ³»,æ‹‰è‚šå­
 dizzy
-adj.Í·ÔÎµÄ
+adj.å¤´æ™•çš„
 doze
-n.î§Ë¯ v.´òî§Ë¯
+n.çŒç¡ v.æ‰“çŒç¡
 drowsy
-adj.À§¾ëµÄ,»è»èÓûË¯µÄ
+adj.å›°å€¦çš„,æ˜æ˜æ¬²ç¡çš„
 epidemic
-n.Á÷ĞĞ²¡ adj.Á÷ĞĞµÄ
+n.æµè¡Œç—… adj.æµè¡Œçš„
 exhaustion
-n.¾«Æ£Á¦½ß
+n.ç²¾ç–²åŠ›ç«­
 faint
-v.&n.ÔÎµ¹,»èµ¹
+v.&n.æ™•å€’,æ˜å€’
 fatigue
-n.Æ£·¦,Æ£ÀÍ
+n.ç–²ä¹,ç–²åŠ³
 feeble
-adj.ĞéÈõµÄ
+adj.è™šå¼±çš„
 flu/influenza
-n.Á÷¸Ğ
+n.æµæ„Ÿ
 fever
-n.·¢ÉÕ
+n.å‘çƒ§
 food poison
-Ê³ÎïÖĞ¶¾
+é£Ÿç‰©ä¸­æ¯’
 gloomy
-adj.µÍ³ÁµÄ,Òõ³ÁµÄ,ÒÖÓôµÄ
+adj.ä½æ²‰çš„,é˜´æ²‰çš„,æŠ‘éƒçš„
 hiccup
-n.&v.´òàÃ
+n.&v.æ‰“å—
 infection
-n.´«È¾²¡,¸ĞÈ¾
+n.ä¼ æŸ“ç—…,æ„ŸæŸ“
 inflame
-v.Ê¹·¢Ñ×,ÉÏ»ğ
+v.ä½¿å‘ç‚,ä¸Šç«
 insomnia
-n.Ê§ÃßÖ¢
+n.å¤±çœ ç—‡
 itch
-v.&n.·¢Ñ÷
+v.&n.å‘ç—’
 leprosy
-n.Âé·ç²¡
+n.éº»é£ç—…
 malaria
-n.Å±¼²
+n.ç–Ÿç–¾
 mental
-adj.ĞÄÀíµÄ,¾«ÉñµÄ
+adj.å¿ƒç†çš„,ç²¾ç¥çš„
 nausea
-n.·´Î¸,¶ñĞÄ
+n.åèƒƒ,æ¶å¿ƒ
 pain
-n.ÌÛ,Í´
+n.ç–¼,ç—›
 pneumonia
-n.·ÎÑ×
+n.è‚ºç‚
 restless
-adj.²»°²µÄ,·³ÔêµÄ
+adj.ä¸å®‰çš„,çƒ¦èºçš„
 runny nose
-Á÷±ÇÌé
+æµé¼»æ¶•
 scar
-n.ÉËºÛ,°ÌºÛ v.½á°Ì
+n.ä¼¤ç—•,ç–¤ç—• v.ç»“ç–¤
 shock
-v.Ê¹µç»÷,´ò»÷ n.Ğİ¿Ë
+v.ä½¿ç”µå‡»,æ‰“å‡» n.ä¼‘å…‹
 sneeze
-v.´òÅçÌç
+v.æ‰“å–·åš
 sore
-adj.ÌÛÍ´µÄ
+adj.ç–¼ç—›çš„
 sprain
-v.Å¤ÉË
+v.æ‰­ä¼¤
 stuffed nose
-±ÇÈû
+é¼»å¡
 suffocate
-v.(Ê¹)ÖÏÏ¢
+v.(ä½¿)çª’æ¯
 sunstroke
-n.ÖĞÊî
+n.ä¸­æš‘
 symptom
-n.Ö¢×´
+n.ç—‡çŠ¶
 swell
-v.&n.Ö×ÕÍ,¹ÄÆğ
+v.&n.è‚¿èƒ€,é¼“èµ·
 twist
-v.Å¤ÉË
+v.æ‰­ä¼¤
 ulcer
-n.À£Ññ
+n.æºƒç–¡
 upset
-adj.ÇéĞ÷µÍÂä
+adj.æƒ…ç»ªä½è½
 vision
-n.ÊÓÁ¦
+n.è§†åŠ›
 wound
-n.´´ÉË,ÉË¿Ú
+n.åˆ›ä¼¤,ä¼¤å£

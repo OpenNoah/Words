@@ -1,98 +1,98 @@
 acupuncture
-n.Õë¾Ä
+n.é’ˆç¸
 antibiotic
-n.¿¹ÉúËØ
+n.æŠ—ç”Ÿç´ 
 aspirin
-n.°¢Ë¾Æ¥ÁÖ
+n.é˜¿å¸åŒ¹æ—
 blood pressure
-ÑªÑ¹
+è¡€å‹
 bandage
-n.±Á´ø vt.ÓÃ±Á´ø°üÔú
+n.ç»·å¸¦ vt.ç”¨ç»·å¸¦åŒ…æ‰
 campus clinic
-Ñ§Ğ£ÕïËù
+å­¦æ ¡è¯Šæ‰€
 capsule
-n.½ºÄÒ
+n.èƒ¶å›Š
 checkup
-n.Ìå¼ì
+n.ä½“æ£€
 drugstore/pharmacy
-n.Ò©µê
+n.è¯åº—
 cure
-v.ÖÎÁÆ,È¬Óú n.Ò©Îï;ÖÎÁÆ,ÖÎÓú
+v.æ²»ç–—,ç—Šæ„ˆ n.è¯ç‰©;æ²»ç–—,æ²»æ„ˆ
 dentist
-n.ÑÀÒ½
+n.ç‰™åŒ»
 diagnosis
-n.Õï¶Ï
+n.è¯Šæ–­
 dosage
-n.¼ÁÁ¿
+n.å‰‚é‡
 dose
-n.¼ÁÁ¿,Ò»¼Á v.¸ø·şÒ©
+n.å‰‚é‡,ä¸€å‰‚ v.ç»™æœè¯
 eyedrop
-n.ÑÛÒ©Ë®
+n.çœ¼è¯æ°´
 first-aid kit
-¼±¾È°ü
+æ€¥æ•‘åŒ…
 heal
-v.ÖÎÓú,¸´Ô­
+v.æ²»æ„ˆ,å¤åŸ
 hormone
-n.ºÉ¶ûÃÉ,¼¤ËØ
+n.è·å°”è’™,æ¿€ç´ 
 immune
-adj.ÃâÒßµÄ,ÓĞÃâÒßÁ¦µÄ
+adj.å…ç–«çš„,æœ‰å…ç–«åŠ›çš„
 injection
-n.×¢Éä
+n.æ³¨å°„
 health centre
-½¡¿µÖĞĞÄ
+å¥åº·ä¸­å¿ƒ
 internal/external use
-ÄÚ·ş/Íâ·ó
+å†…æœ/å¤–æ•·
 medicine
-n.Ò©Îï
+n.è¯ç‰©
 mixture
-n.ºÏ¼Á;»ìºÏÎï
+n.åˆå‰‚;æ··åˆç‰©
 nursing
-n.»¤Àí
+n.æŠ¤ç†
 operation
-n.ÊÖÊõ
+n.æ‰‹æœ¯
 optic
-adj.ÑÛ¾¦µÄ,ÊÓ¾õµÄ
+adj.çœ¼ç›çš„,è§†è§‰çš„
 optician
-n.Ñé¹âÊ¦
+n.éªŒå…‰å¸ˆ
 painkiller
-n.ÕòÍ´Ò©
+n.é•‡ç—›è¯
 penicillin
-n.ÇàÃ¹ËØ
+n.é’éœ‰ç´ 
 pill
-n.Ò©Íè
+n.è¯ä¸¸
 physician
-n.Ò½Ê¦,ÄÚ¿ÆÒ½Éú
+n.åŒ»å¸ˆ,å†…ç§‘åŒ»ç”Ÿ
 prescribe
-v.¿ª´¦·½
+v.å¼€å¤„æ–¹
 precaution
-n.Ô¤·À
+n.é¢„é˜²
 pulse
-n.Âö²«
+n.è„‰æ
 recover
-v.È¬Óú,¸´Ô­
+v.ç—Šæ„ˆ,å¤åŸ
 receptionist
-n.½Ó´ıÔ±
+n.æ¥å¾…å‘˜
 remedy
-n.ÖÎÁÆ
+n.æ²»ç–—
 side effect
-¸±×÷ÓÃ
+å‰¯ä½œç”¨
 surgery
-n.Íâ¿Æ,Íâ¿ÆÊÖÊõ
+n.å¤–ç§‘,å¤–ç§‘æ‰‹æœ¯
 surgeon
-n.Íâ¿ÆÒ½Éú
+n.å¤–ç§‘åŒ»ç”Ÿ
 syrup
-n.ÌÇ½¬
+n.ç³–æµ†
 tablet
-n.Ò©Æ¬
+n.è¯ç‰‡
 temperature
-n.ÎÂ¶È,ÌåÎÂ
+n.æ¸©åº¦,ä½“æ¸©
 therapy
-n.ÖÎÁÆ
+n.æ²»ç–—
 treatment
-n.ÖÎÁÆ
+n.æ²»ç–—
 vaccine
-n.ÒßÃç
+n.ç–«è‹—
 vitamin
-n.Î¬ÉúËØ
+n.ç»´ç”Ÿç´ 
 ward
-n.²¡·¿ v.ÊØ»¤,±£ÎÀ
+n.ç—…æˆ¿ v.å®ˆæŠ¤,ä¿å«

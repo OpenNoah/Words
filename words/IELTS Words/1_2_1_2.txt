@@ -1,48 +1,48 @@
 activity
-n.»î¶¯
+n.æ´»åŠ¨
 amusement
-n.ÓéÀÖ,ÏûÇ²
+n.å¨±ä¹,æ¶ˆé£
 audience
-n.¹ÛÖÚ
+n.è§‚ä¼—
 carnival
-n.¿ñ»¶½Ú
+n.ç‹‚æ¬¢èŠ‚
 collection
-n.ÊÕ²Ø,ÊÕ²ØÆ·
+n.æ”¶è—,æ”¶è—å“
 draw
-v.»­»­
+v.ç”»ç”»
 entertainment
-n.ÓéÀÖ
+n.å¨±ä¹
 exhibit
-vt.Õ¹³ö,³ÂÁĞ n.Õ¹ÀÀÆ·,³ÂÁĞÆ·
+vt.å±•å‡º,é™ˆåˆ— n.å±•è§ˆå“,é™ˆåˆ—å“
 fancy dress
-Îè»á·ş×°
+èˆä¼šæœè£…
 instrument
-n.ÀÖÆ÷
+n.ä¹å™¨
 leisure
-n.ĞİÏĞ,ÓÆÏĞ
+n.ä¼‘é—²,æ‚ é—²
 merry-go-round
-n.Ğı×ªÄ¾Âí
+n.æ—‹è½¬æœ¨é©¬
 mural
-n.±Ú»­
+n.å£ç”»
 paint
-v.(ÓÃÑÕÁÏµÈ)»­
+v.(ç”¨é¢œæ–™ç­‰)ç”»
 photography
-n.ÉãÓ°
+n.æ‘„å½±
 picnic
-n.Ò°²Í
+n.é‡é¤
 portrait
-n.Ğ¤Ïñ
+n.è‚–åƒ
 relax
-v.·ÅËÉ,Ê¹·ÅËÉ
+v.æ”¾æ¾,ä½¿æ”¾æ¾
 roller coaster
-¹ıÉ½³µ
+è¿‡å±±è½¦
 sculpture
-n.µñËÜ
+n.é›•å¡‘
 seesaw
-n.õÎõÎ°å
+n.è··è··æ¿
 sketch
-n.&v.ËØÃè
+n.&v.ç´ æ
 stroll
-v.&n.Âş²½,ÏĞ¹ä
+v.&n.æ¼«æ­¥,é—²é€›
 swing
-n.ÇïÇ§ v.Ò¡°Ú,°Ú¶¯
+n.ç§‹åƒ v.æ‘‡æ‘†,æ‘†åŠ¨

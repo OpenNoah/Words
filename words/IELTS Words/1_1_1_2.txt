@@ -1,82 +1,82 @@
 aeroplane
-n.·É»ú
+n.é£æœº
 air hostess
-¿Õ½ã
+ç©ºå§
 airport
-n.»ú³¡
+n.æœºåœº
 airline
-n.º½Ïß£¬º½¿Õ¹«Ë¾
+n.èˆªçº¿ï¼Œèˆªç©ºå…¬å¸
 airway
-n.º½¿Õ¹«Ë¾
+n.èˆªç©ºå…¬å¸
 available
-adj.¿ÉµÃµ½µÄ
+adj.å¯å¾—åˆ°çš„
 boat
-n.Ğ¡´¬
+n.å°èˆ¹
 board
-v.µÇÉÏ£¨´¬¡¢·É»úµÈ£©
+v.ç™»ä¸Šï¼ˆèˆ¹ã€é£æœºç­‰ï¼‰
 brochure
-n.Ğ¡²á×Ó
+n.å°å†Œå­
 class
-n.¼¶±ğ
+n.çº§åˆ«
 check in
-Èë×¡ÂÃ¹İ£»°ìÀíµÇ»úÊÖĞø
+å…¥ä½æ—…é¦†ï¼›åŠç†ç™»æœºæ‰‹ç»­
 coach
-n.³¤Í¾¿Í³µ
+n.é•¿é€”å®¢è½¦
 destination
-n.Ä¿µÄµØ
+n.ç›®çš„åœ°
 discount
-n.´òÕÛ£¬ÕÛ¿Û
+n.æ‰“æŠ˜ï¼ŒæŠ˜æ‰£
 declare
-vt.Éê±¨ vt.ÉùÃ÷
+vt.ç”³æŠ¥ vt.å£°æ˜
 delay
-v.&n.µ¢¸é£¬ÑÓ³Ù
+v.&n.è€½æï¼Œå»¶è¿Ÿ
 duty-free shop
-ÃâË°µê
+å…ç¨åº—
 embarkation card
-³ö¾³µÇ¼Ç±í
+å‡ºå¢ƒç™»è®°è¡¨
 ETA(estimated time of arrival)
-Ô¤¼Æµ½´ïÊ±¼ä
+é¢„è®¡åˆ°è¾¾æ—¶é—´
 ETD(estimated time of departure)
-Ô¤¼ÆÆğ·ÉÊ±¼ä
+é¢„è®¡èµ·é£æ—¶é—´
 fare
-n.Æ±¼Û£¬³µ·Ñ
+n.ç¥¨ä»·ï¼Œè½¦è´¹
 flight
-n.·ÉĞĞ
+n.é£è¡Œ
 four-wheel drive
-ËÄÂÖÇı¶¯³µ
+å››è½®é©±åŠ¨è½¦
 greyhound
-n.³¤Í¾Æû³µ
+n.é•¿é€”æ±½è½¦
 land
-v.×ÅÂ½
+v.ç€é™†
 luggage
-n.ĞĞÀî
+n.è¡Œæ
 minibus
-n.Ğ¡ĞÍ¹«¹²Æû³µ
+n.å°å‹å…¬å…±æ±½è½¦
 offer
-v.&n.Ìá¹©
+v.&n.æä¾›
 platform
-n.Õ¾Ì¨£¬ÔÂÌ¨
+n.ç«™å°ï¼Œæœˆå°
 passenger
-n.³Ë¿Í
+n.ä¹˜å®¢
 pilot
-n.·ÉĞĞÔ±
+n.é£è¡Œå‘˜
 price
-n.¼Û¸ñ
+n.ä»·æ ¼
 refuel
-v.¼ÓÓÍ£¬²¹¸øÈ¼ÁÏ
+v.åŠ æ²¹ï¼Œè¡¥ç»™ç‡ƒæ–™
 reservation
-n.Ô¤¶¨
+n.é¢„å®š
 runway
-n.ÅÜµÀ
+n.è·‘é“
 stopover
-n.ÖĞÍ¾Í£Áô
+n.ä¸­é€”åœç•™
 schedule
-n.Ê±¼ä±í
+n.æ—¶é—´è¡¨
 time difference
-Ê±²î
+æ—¶å·®
 ticket
-n.Æ±
+n.ç¥¨
 train
-n.»ğ³µ
+n.ç«è½¦
 yacht
-n.ÓÎÍ§
+n.æ¸¸è‰‡
